@@ -1,7 +1,12 @@
+import { Container, Button } from 'react-bootstrap';
+
 function App() {
   return (
-    <h1>Figma com MCP + Github Copilot!</h1>
-  )
+    <Container className="py-5">
+      <h1>Projeto de Copilot com MCP!</h1>
+      <Button>Ja temos alguns componentes!</Button>
+    </Container>
+  );
 }
 
-export default App
+export default App;
